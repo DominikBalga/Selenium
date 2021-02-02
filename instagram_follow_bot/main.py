@@ -6,7 +6,7 @@ import time
 username = os.environ.get("username")
 password = os.environ.get("password")
 INSTA_ACC_TO_GET_FOLLOWERS = "ANY INSTA ACCOUNT"
-
+# -----Bot-goes brrrr----
 bot = InstaBot()
 bot.login(username,password)
 time.sleep(2)
